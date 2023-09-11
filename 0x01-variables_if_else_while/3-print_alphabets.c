@@ -10,12 +10,11 @@ int main(void)
 {
 	char alf[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i = 0;
-	
 	while (i < 52)
 	{
 		putchar(alf[i]);
 		i++;
-        }
+	}
 	putchar('\n');
 	return (0);
 }
