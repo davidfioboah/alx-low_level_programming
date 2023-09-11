@@ -8,15 +8,15 @@
  */
 int main(void)
 {
-        char lowerUpper[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        int i = 0;
-
-        while (i < 52)
+	char alf[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i = 0;
+       
+	while (i < 52)
         {
-                putchar(lowerUpper[i]);
-                i++;
+		putchar(alf[i]);
+		i++;
         }
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
 
