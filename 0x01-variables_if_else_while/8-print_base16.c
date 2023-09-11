@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char alphabet = 'a';
+	char alph = 'a';
 	int i = 0;
 	
 	while (i < 10)
@@ -16,10 +16,10 @@ int main(void)
 	putchar((i % 10) + '0');
 	i++;
 }
-	while (alphabet <= 'f')
+	while (alph <= 'f')
 {
-	putchar(alphabet);
-	alphabet++;
+	putchar(alph);
+	alph++;
 }
 	putchar('\n');
 	return (0);
