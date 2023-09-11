@@ -10,7 +10,7 @@
 int main(void)
 {
 	char lower[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i = 26;
+	int i = 25;
 
 	while (i >= 0)
 	{
