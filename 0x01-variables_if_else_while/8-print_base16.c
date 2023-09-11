@@ -10,6 +10,7 @@ int main(void)
 {
 	char alphabet = 'a';
 	int i = 0;
+	
 	while (i < 10)
 {
 	putchar((i % 10) + '0');
