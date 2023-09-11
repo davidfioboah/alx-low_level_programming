@@ -11,7 +11,8 @@ int main(void)
 {
 	char lower[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
-	while (i < 26 )
+
+	while (i < 26)
 	{
 		putchar(lower[i]);
 		i++;
