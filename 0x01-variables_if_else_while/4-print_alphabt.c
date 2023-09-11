@@ -12,9 +12,9 @@ int main(void)
 {
 	int alph = 97;
 
-	while(alph < 123)
+	while (alph < 123)
 	{
-		if(alph != 101 && alph != 113)
+		if (alph != 101 && alph != 113)
 		{
 			putchar(alph);
 		}
