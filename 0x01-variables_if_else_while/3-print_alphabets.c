@@ -6,15 +6,14 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-        char lower_upper[26] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        char lowerUpper[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
         int i = 0;
 
         while (i < 52)
         {
-                putchar(lower_upper[i]);
+                putchar(lowerUpper[i]);
                 i++;
         }
         putchar('\n');
