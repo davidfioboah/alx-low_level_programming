@@ -1,24 +1,24 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /**
- * main - Print lowercase alphabets with q and e removed
+ * main - prints the letters of the alphabet in lowercase
+ *
+ * Description: The letters e and q are exempted
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char lowerCase[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i = 0;
+	int alph = 97;
 
-	while(i < 26)
+	while(alph < 123)
 	{
-		if(lowerCase[i] != 'q' && lowercase[i] != 'e')
+		if(alph != 101 && alph != 113)
 		{
-			putchar(lowercase[i]);
-			i++;
+			putchar(alph);
 		}
+		alph = alph + 1;
 	}
 	putchar('\n');
 	return (0);
