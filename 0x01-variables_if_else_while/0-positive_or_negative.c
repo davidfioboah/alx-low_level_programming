@@ -2,17 +2,18 @@
 #include <time.h>
 #include <stdio.h>
 
-/** 
+/**
  * main - To check if a random number is positive or negative
  *
- * Description: the variable will be assigned a random number each time it is executed
+ * Description: the variable will be assigned a random number
+ * each time it is executed
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
- 	int n;
+	int n;
 
 
 	srand(time(0));
