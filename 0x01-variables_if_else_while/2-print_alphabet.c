@@ -9,9 +9,9 @@
 
 int main(void)
 {
-	char lower[] = "abcdefghijklmnopqrstuvwxyz";
+	char lower[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
-	while (i < strlen(lower))
+	while (i < 26 )
 	{
 		putchar(lower[i]);
 		i++;
