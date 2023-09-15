@@ -3,26 +3,17 @@
  * print_line - draws a straight line
  * @n: number of times to be printed
  *
- * return void
+ * return: void
  */
 
 void print_line(int n)
 {
-	int n;
+	int i = 0;
 
-	if (n <= 0)
+	while (i < n)
 	{
-		_putchar('\n');
+		_putchar('_');
+		i++;
 	}
-	else
-	{
-		int i;
-
-		for (i = 1; i <= n; i++)
-		{
-			_putchar('_');
-		}
-		_putchar('\n');
-	}
+	_putchar('\n');
 }
-
