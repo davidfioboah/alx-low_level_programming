@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * fizz_buzz - fizz-buzz test
+ * main - fizz-buzz test
  *
  * return: Always 0
  */
