@@ -4,10 +4,10 @@
  * _strcat - to concatenate strings
  * @dest: first string
  * @src: second string
- * Return: string(dest)
+ * Return: string
  */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
 	int i, j;
 
@@ -18,10 +18,8 @@ char *_strcat(char *dest, char *src, int n)
 	for (j = 0; src[j] != 0; j++)
 	{
 		dest[i] = src[j];
-		i++;
+		i += 1;
 	}
 	dest[i] = '\0';
 	return (dest);
 }
-
-	
