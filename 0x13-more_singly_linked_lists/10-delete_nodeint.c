@@ -11,7 +11,7 @@ i#include "lists.h"
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 listint_t *tmp, *copy = *head;
-unsigned int node;
+unsigned int nodes;
 
 if (copy == NULL)
 return (-1);
